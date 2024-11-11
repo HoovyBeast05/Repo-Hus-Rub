@@ -11,13 +11,28 @@ public class practica {
 		
 		// User 1 fer la suma dels elements de sumArray
 		
+		int sum =0;
 		
+		for (int Arra: sumArray) 
+		{
+			sum += Arra;
+		}
+		System.out.println(sum);
 		
 		// User 2 fer la resta dels elements de subArray
 		
 		
 		
 		// User 3 fer la multiplicació dels elements de prodArray
+		
+		int mult = 1;
+		
+		for (int num : prodArray) 
+		{
+			mult *= num;
+		}
+		
+		System.out.println(mult);
 
 	}
 
